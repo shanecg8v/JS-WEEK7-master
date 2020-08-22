@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <loading :active.sync="isLoading"></loading>
-    <h1 class="text-center">產品管控</h1>
+    <h1 class="text-center">產品管理</h1>
     <div class="d-flex justify-content-end my-2">
         <button type="button" class="btn btn-primary"
           @click="openModal('new')">建立新的產品</button>
